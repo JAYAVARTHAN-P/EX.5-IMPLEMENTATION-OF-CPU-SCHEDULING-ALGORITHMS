@@ -70,10 +70,10 @@ First-Come-First-Serve Scheduling is implemented successfully.
 
 ## Shortest Job First (SJF) Preemptive Scheduling
 
-AIM:
+## AIM:
 To implement Shortest Job First (SJF) Preemptive Scheduling
 
-ALGORITHM:
+## ALGORITHM:
 Start the process
 Accept the number of processes in the ready queue
 For each process in the ready queue, do the following:
@@ -83,7 +83,7 @@ Calculate the turnaround time for the current process
 Display the process ID, burst time, waiting time and turnaround time for the current process
 Calculate the average waiting time and average turnaround time
 Stop the process
-PROGRAM:
+## PROGRAM:
 ```
 n = int(input("Enter the number of processes: "))
 
